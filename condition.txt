@@ -1,0 +1,15 @@
+# one @
+# all letters in lowcase
+# no space
+# only _ and . can be used
+# no special character
+# g@g.in  (minimum 6 characters)
+# first letter should be alphabet
+
+# wrong EmailId 1--> (false) if length of email is < 6
+
+# wrong EmailId 2--> (false) if first letter of email must be alphabet
+
+# wrong EmailId 3--> (false) if("@" in email) and (email.count("@")==1)
+
+# wrong EmailId 4--> (false) if email[-3]=="." ^ email[-4]=="."
